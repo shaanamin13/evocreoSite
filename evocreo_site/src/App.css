@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*
+  Custom CSS 
+*/
+
+.container {
+  text-align: center;
+  background-color: #8F9779;
+  min-height: 200vh;
+}
+
+.appstore-button,
+.googleplay-button {
+  height: 45px !important;
+  width: 150px !important;
+  display: flex;
+  margin-top: 20px;
+  /* Adjust the margin as needed */
+}
+
+.appstore-button {
+  margin-left: auto;
+  /* Align to the left */
+}
+
+.googleplay-button {
+  margin-right: auto;
+  /* Align to the right */
+}
+
+.app-store-buttons {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 50px;
+  /* Adjust as needed for spacing */
+}
+
+.app-store-buttons a {
+  margin: 0 10px;
+}
+
+.game-banner {
+  background-color: #8F9779;
+  color: white;
+  background-image: url('../public/images/background.png');
+  background-size: cover;
+  background-position: center;
+  height: 425px;
+  /* Set the height of the banner */
+  width: 100%;
+  /* Set the width to 100% to cover the entire width of the page */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.app-store-buttons {
+  margin-top: 20px;
+}
+
+.footer-links {
+  margin-top: 50px;
+}
+
+.footer-links button {
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.ant-card-body {
+  background-color: #8F9779 ;
+}
+
+.custom-card {
+  width: 100%;
+  /* Make the card take full width of the container */
+  max-width: 400px;
+  /* Set a maximum width for the card */
+}
+
+.custom-divider {
+  border-top: 10px solid #FFA500;
+  border-bottom: 3px solid rgb(29, 38, 5);
+  margin-top: -1px;
+}
