@@ -26,6 +26,24 @@ const App: React.FC = () => {
             style={{ width: '750px', height: '500px' }}
             preview={false}
           />
+          <div className='creoHolder-left'>
+            <Image
+              className="fyru-image"
+              src="/images/Fyru.png"
+              preview={false}
+              alt="Fyru"
+              >
+            </Image>
+          </div>
+          <div className='creoHolder-right'>
+            <Image
+              className="skalorn-image"
+              src="/images/Skalorn.png"
+              preview={false}
+              alt="Skalorn"
+              >
+            </Image>
+          </div>
           <div className="app-store-buttons">
             {/* Use Image components instead of Buttons */}
             <a

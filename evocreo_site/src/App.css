@@ -66,6 +66,29 @@
   /* Align to the right */
 }
 
+.creoHolder-left {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  transform: translateX(-80%);
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  margin-bottom: 75px;
+  scale: 2;
+}
+
+.creoHolder-right {
+  position: absolute;
+  bottom: 0;
+  left: 80%;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  margin-bottom: 75px;
+  scale: 2;
+}
+
 .app-store-buttons {
   position: absolute;
   bottom: 0;
